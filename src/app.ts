@@ -1,5 +1,5 @@
 import express from 'express';
-import {courseRouter} from './routes/courses';
+import { courseRouter } from './routes/courses';
 import { testRouter } from './routes/tests';
 
 export const app = express();
